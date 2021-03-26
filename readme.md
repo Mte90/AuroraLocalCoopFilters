@@ -1,4 +1,5 @@
 # AuroraLocalCoopFilters
+[![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)   
 
 The idea behind is to create a generator of Aurora Lua filters by using data from various sources to be able to filter games that let you to play local in coop with friends.  
 The code can be modified to generate also for multiplayer in case.  
