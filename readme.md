@@ -9,13 +9,13 @@ To download the Lua filters checks in the repo Releases (put the Lua files insid
 ## Ispiration:
 
 * https://github.com/Swizzy/AuroraScripts/
-* 
+* https://www.realmodscene.com/index.php?/topic/6371-local-co-op-co-op-4-player-multiplayer-scripts/&tab=comments#comment-54099 (used to generate the `manual_*.txt` files)
 
 ## How works
 
 * Scrape data from Co-Optimus and Wikipedia generating txt files that include Games name
 * Later this files (with the player numbers) are associated with TitleID
-* Generate LUA scripts that includes those TitleID (with the `manual_*.txt`) with removing duplicates
+* Generate LUA scripts that includes those TitleID (with the `manual_*.txt` that is a TitleID list human made) with removing duplicates
 
 The reason is that as today those data are not gathered anymore from Xbox or are incomplete, so we need a bit of Python to achieve it.
 
@@ -53,3 +53,8 @@ From Lua filter generator:
 For 2 players we found 475 games.
 For 4 players we found 181 games.
 ```
+
+### Why is not detecting all of them?
+
+Every source write the game name in a different way so a match is very difficult. The scripts try a normalization to get more matches but cannot identify all of them.  
+If you have suggestions open a ticket :-)

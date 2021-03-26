@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 
-file = open('./Coop4_.txt', 'r')
+# This is an hacky script used to generated the manual_*.txt files
+# Let you compare some files with just TitleID and generate a list with the one missings
+
+file = open('./Coop4.txt', 'r')
 Lines = file.readlines()
 ids = []
 for line in Lines:
