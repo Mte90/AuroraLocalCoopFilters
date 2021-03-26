@@ -4,9 +4,9 @@
 The idea behind is to create a generator of Aurora Lua filters by using data from various sources to be able to filter games that let you to play local in coop with friends.  
 The code can be modified to generate also for multiplayer in case.  
 
-To download the Lua filters checks in the repo Releases (put the Lua files inside the `Aurora/User/Scripts/Content/Filters/` folder, the Aurora main folder can change based on your installation).
+To download the Lua filters [checks in the repo Releases](https://github.com/Mte90/AuroraLocalCoopFilters/releases) (put the Lua files inside the `Aurora/User/Scripts/Content/Filters/` folder, the `Aurora` main folder can change based on your installation).
 
-## Ispiration:
+## Inspiration:
 
 * https://github.com/Swizzy/AuroraScripts/
 * https://www.realmodscene.com/index.php?/topic/6371-local-co-op-co-op-4-player-multiplayer-scripts/&tab=comments#comment-54099 (used to generate the `manual_*.txt` files)
@@ -38,7 +38,7 @@ Found 36 4+ Coop games.
 11 4+ Coop games not identified. 
 ```
 
-From Cooptimus:
+From Co-optimus:
 
 ```
 Found 345 2 Coop games.
